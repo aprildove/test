@@ -8,13 +8,13 @@
 <script>
 // @ is an alias to /src
 // import LazyLoad from '@/components/LazyLoad.vue'
-import webpack from '@/components/webpack.vue'
+import Webpack from '@/components/webpack'
 
 export default {
   name: 'home',
   components: {
     // LazyLoad,
-    webpack
+    Webpack
   }
 }
 </script>

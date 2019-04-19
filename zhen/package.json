@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "webpack": "webpack --config webpack.config.js",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "less-loader": "^4.1.0",
     "lodash": "^4.17.11",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
@@ -28,8 +30,12 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "html-loader": "^0.5.5",
+    "less": "^3.9.0",
+    "node-sass": "^4.11.0",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.21",
     "webpack-cli": "^3.3.0"
   }
