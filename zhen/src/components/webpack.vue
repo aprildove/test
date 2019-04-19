@@ -1,5 +1,11 @@
 <template>
   <div class="webpack">
+     <div class="img">
+        <!-- <img class="pic" alt="加载中" src="../assets/logo.png"> -->
+      </div>
+      <div class="img">
+        <!-- <img class="pic" alt="加载中" src="../assets/images/10.png"> -->
+      </div>
   </div>
 </template>
 
